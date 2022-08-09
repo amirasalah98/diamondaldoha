@@ -2,6 +2,11 @@
     margin: 0;
     direction: rtl;
     /* font-size: 	20px; */
+    
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .mobNav{
     display: none;
@@ -49,15 +54,88 @@ nav{
     background-color: white;
     height: 35px;
 }
+.flex-main{
+    display: flex;
+    justify-content: space-between;
+   
+}
 .main-aside{
     width: 33%;
     border: 1px solid #EB8014;
     background-color: #EB8014;
-   
 }
 .main-aside2{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+ /* width: 60%; */
+padding: 50px;
+}
+.main-aside2 img{
     width: 100%;
 }
+.main-aside2 h1{
+    padding-top: 20px;
+    color: #8C1014;
+}
+.main-aside2 a{
+    display: block;
+    width: 80px;
+   background-color: #EB8014;
+   color: #fff;
+   padding: 10px;
+   border: 1px solid #EB8014;
+   border-radius: 5px;
+   margin: 15px;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+
+}
+.main-aside2 a:hover{
+    background-color: #fff;
+    border: 1px solid #EB8014;
+    color: #EB8014;
+}
+.display{
+    display: none;
+}
+.recruitment-details{
+    text-align: right;
+    
+}
+.recruitment-details h3{
+    padding-top: 25px;
+    color: #EB8014;
+}
+.our-services{
+    width: 100%;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.our-services h3{
+    width: 40%;
+    margin: auto;
+    background-color: #8C1014;
+    border: 1px solid #fff;
+    color: #fff;
+    /* margin-bottom: 15px; */
+    margin-top: 25px;
+    border-radius: 5px;
+
+}
+/* form{
+    width: 100%;
+} */
+.contact-us input{
+    margin-bottom: 15px;
+}
+.contact-us h2{
+    color: #8C1014;
+    padding-top: 15px;
+}
+
 .main-aside h2{
     text-align: right;
     height: 38px;
@@ -171,4 +249,5 @@ display: none;
         background-size: 100%;
         background-repeat: no-repeat;
     }
+
 }
