@@ -37,7 +37,7 @@ nav a:hover{
     height: 35px;
     
 }
-ul{
+nav ul{
     display: flex;
     justify-content: center;
 }
@@ -100,6 +100,15 @@ padding: 50px;
 .display{
     display: none;
 }
+.about-us li{
+    text-align: right;
+    list-style-type:circle;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-us div{
+    border-bottom:1px solid rgb(218, 218, 218);
+    padding: 5px;
+}
 .about-us h2{
     width: 100px;
     color: #8C1014;
@@ -127,14 +136,20 @@ padding: 50px;
 }
 
 .our-services h3{
-    width: 40%;
-    margin: auto;
+     width: 40%;
+    /*margin: auto;
     background-color: #8C1014;
     border: 1px solid #fff;
-    color: #fff;
+    color: #fff; */
     /* margin-bottom: 15px; */
-    margin-top: 15px;
-    border-radius: 5px;
+    /* margin-top: 15px;
+    border-radius: 5px; */
+    /* width: 100px; */
+    color: #8C1014;
+    border: 1px solid #8C1014;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 20px;
 
 }
 .our-services div{
