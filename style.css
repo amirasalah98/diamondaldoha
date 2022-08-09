@@ -1,22 +1,26 @@
 *{
     margin: 0;
     direction: rtl;
+    /* font-size: 	20px; */
+}
+.mobNav{
+    display: none;
 }
 header{
     width: 100%;
-    background-color: #EB8014;
+    background-color: #eb801498;
     height: 128px;
     
 }
 .container{
     text-align: center;
-    width: 60%;
+    width: 63%;
     margin: auto;
 }
 nav a{
     text-decoration: none;
     color: #8C1014;
-    vertical-align: middle;
+   
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    cursor: pointer;
    padding: 0.5em 0.75em;
@@ -25,11 +29,18 @@ nav a{
 nav a:hover{
     color: white;
     background-color:#EB8014 ;
+    height: 35px;
     
 }
+ul{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style-type: none;
+}
 .inner-header{
- 
- /* opacity: 1; */
+
 }
 img{
     width: 400px;
@@ -40,25 +51,39 @@ nav{
 }
 .main-aside{
     width: 33%;
-    float: right;
     border: 1px solid #EB8014;
-    /* border-radius: 30px; */
     background-color: #EB8014;
+   
+}
+.main-aside2{
+    width: 100%;
 }
 .main-aside h2{
     text-align: right;
-    padding-right: 0px;
+    height: 38px;
+    padding-left: 30px;
     background-image: url(https://www.alemadia.com/images/index1.png);
-    background-position:right ;
-    background-origin:padding-box;
-}
-.login{
-    /* background-image: url(https://www.alemadia.com/images/client_but.png); */
+    color: #fff;
+    /* background-size: cover; */
+    padding-right:30px;
+    padding-top:5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width:81.5%;
+    
 }
 .main-aside aside{
-    /* padding: 19px; */
+    padding-top: 25px;
     width: 100%;
-    margin: 15px;
+    margin:-6px;
+}
+.main-aside aside input{
+    margin-top: 20px;
+}
+.main-aside aside label{
+    max-width: 30%;
+    color:#8C1014;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .custom-item{
     width: 20px;
@@ -66,14 +91,84 @@ nav{
     background-color: #1b14eb;
     
 }
-/* .right-float{
-    border: 1px solid #EB8014;
-    border-radius: 60px;
-height: 100px;
-    width: 20%;
-    float: right;
+.social-icons{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
 }
-.left-float{
-    width: 20%;
-    float: left;
-} */
+.social-icons img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.about{
+    position: relative;
+}
+.about-details{
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+}
+.about-details li{
+    display: none;
+}
+@media (max-width: 1014px){
+    *{
+        font-size: 18px;
+    }
+    .container{
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    nav a{
+        padding: 0px;
+    }
+    .social-icons img{
+        width: 35px;
+        height: 35px;
+    }
+    .main-aside h2{
+        width:81.5%;
+    }
+    .main-aside h2{
+        padding-right:30px;
+    padding-top:5px;
+        width:75.5%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 740px){
+    *{
+        font-size: 16px;
+    }
+    nav{
+display: none;
+    }
+    .mobNav{
+        display: block;
+        
+    }
+    .main-aside {
+        width: 50%;
+    }
+    .main-aside aside{
+        width: 100%;
+    }
+    .main-aside aside input{
+        width: 100px;
+    }
+    .social-icons{
+        width: 100%;
+    }
+    .social-icons img{
+        width: 35px;
+        height: 35px;
+    }
+    .main-aside h2{
+        width:75.5%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}

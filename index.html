@@ -4,41 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    
     <title>Document</title>
+    
 </head>
 <body>
     <header>
+        <!-- <div class="mobNav"> -->
+        <!-- <i class="fa-regular fa-bars"></i> -->
+        <i class="fa-regular fa-square-list"></i>
+        <i class="fa-regular fa-comment-music"></i>
+        <i class="fa-regular fa-archway"></i>
+        <i class="fa-regular fa-bars"></i>
+        <i class="fa-regular fa-list"></i>
+    <!-- </div> -->
         <div class="inner-header container">
         <div>
             <img src="https://www.alemadia.com/images/logo.png" alt="">
             <div></div>
         </div>
         <nav>
-               <a href="#">الرئيسية</a>
-               <a href="#">عن الشركة</a>
-               <a href="#">الأخبار</a>
-               <a href="#">اطلب الآن</a>
-               <a href="#">خدماتنا</a>
-               <a href="#">الخدم</a>
-               <a href="#">الوظائف الشاغرة</a>
-               <a href="#">اتصل بنا</a>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li ><a class="about" href="#" onmouseover="showAbout()">عن الشركة</a>
+                <ul class="about-details">
+                <li >من نحن</li>
+                <li >مدير الشركة</li>
+                <li >فريق العمل</li>
+                </ul>
+                </li>
+                <li><a href="#">>اجراءات التوظيف</a></li>
+                <li><a href="#">خدماتنا</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+            </ul>
         </nav>
         </div>
     </header>
     <div class="" style="background-color:#EB8014; height: 20px;"></div>
     <main>
-        <!-- <div class="right-float" ></div> -->
         <div class="container">
         <div class="main-aside">
-            <div class="custom-item"></div>
+            <!-- <div class="custom-item"></div> -->
             <aside>
                 <h2>تسجيل دخول الوكلاء</h2>
                 <label for="">اسم المستخدم</label>
                 <input type="text"></br>
                 <label for="">كلمة المرور</label>
                 <input type="password"></br>
-                <input type="submit" value="Login" class="login">
+                <input type="image" value="Login" class="login" src="https://www.alemadia.com/images/client_but.png">
             </aside>
             <aside>
                 <h2>تسجيل دخول الوكلاء</h2>
@@ -46,7 +62,7 @@
                 <input type="text"></br>
                 <label for="">كلمة المرور</label>
                 <input type="password"></br>
-                <input type="submit" value="Login" class="login">
+                <input type="image" value="Login" class="login" src="https://www.alemadia.com/images/client_but.png">
             </aside>
             <aside>
                 <h2>ارسال السيرة الذاتية</h2>
@@ -76,12 +92,32 @@
                 <input type="file" id="file"></br>
                 <input type="checkbox" id="terms">
                 <label for="terms">نعم أوافق على الشروط</label><br>
-                <input type="submit" value="send" class="login">
+                <input type="image" value="send" class="login" src="https://www.alemadia.com/images/client_but.png">
             </aside>
+            <div style="border-bottom: 1px dashed #fff; margin-top: 10px;margin-bottom: 30px;"></div>
+
+            <div class="social-icons">
+                <img src="https://www.alemadia.com/facebook.png" href="#">
+                <img src="https://www.alemadia.com/twitter.png" href="#">
+                <img src="https://www.alemadia.com/youtube.png" href="#">
+                <img src="https://www.alemadia.com/fl.png" href="#">
+                <img src="https://www.alemadia.com/rss.png" href="#">
+            </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20705.458656033563!2d51.39771606951782!3d25.27844131261453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3ff0ced8c22c641!2sAamak%20Al%20Jadi%20cleaning!5e0!3m2!1sen!2seg!4v1659978541036!5m2!1sen!2seg"  style="border:0; padding-top: 25px;width: 100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        
     </div>
+   
     <!-- <div class="left-float"></div> -->
 
     </main>
+    <div class="" style="background-color:#EB8014; height: 20px;"></div>
+    <footer>
+        <div style="text-align:center" >
+            <p>COPYRIGHT (C) 2013 AL-EMADIA. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
