@@ -1,6 +1,6 @@
 $('.nav-home').on('click',function(){
     $('.home').removeClass("display")
-    if($('.about-us'&&'.recruitment'&&'.contact-us'&&'.our-services').not('.display')){
+    if($('.about-us'&&'.recruitment'&&'.contact-us'&&'our-services').not('.display')){
         $('.about-us').addClass('display')
         $('.recruitment').addClass('display')
         $('.contact-us').addClass('display')
@@ -9,7 +9,7 @@ $('.nav-home').on('click',function(){
 })
 $('.nav-about').on('click',function(){
     $('.about-us').removeClass("display")
-    if($('.home'&&'.recruitment'&&'.contact-us'&&'.our-services').not('.display')){
+    if($('.home'&&'.recruitment'&&'.contact-us'&&'our-services').not('.display')){
         $('.home').addClass('display')
         $('.recruitment').addClass('display')
         $('.contact-us').addClass('display')
@@ -18,7 +18,7 @@ $('.nav-about').on('click',function(){
 })
 $('.nav-recruit').on('click',function(){
     $('.recruitment').removeClass("display")
-    if($('.about-us'&&'.home'&&'.contact-us'&&'.our-services').not('.display')){
+    if($('.about-us'&&'.home'&&'.contact-us'&&'our-services').not('.display')){
         $('.about-us').addClass('display')
         $('.home').addClass('display')
         $('.contact-us').addClass('display')
@@ -27,7 +27,7 @@ $('.nav-recruit').on('click',function(){
 })
 $('.nav-services').on('click',function(){
     $('.our-services').removeClass("display")
-    if($('.about-us'&&'.recruitment'&&'.contact-us'&&'.home').not('.display')){
+    if($('.about-us'&&'.recruitment'&&'.contact-us'&&'home').not('.display')){
         $('.about-us').addClass('display')
         $('.recruitment').addClass('display')
         $('.contact-us').addClass('display')
@@ -36,7 +36,7 @@ $('.nav-services').on('click',function(){
 })
 $('.nav-contact').on('click',function(){
     $('.contact-us').removeClass("display")
-    if($('.about-us'&&'.recruitment'&&'.home'&&'.our-services').not('.display')){
+    if($('.about-us'&&'.recruitment'&&'home'&&'.our-services').not('.display')){
         $('.about-us').addClass('display')
         $('.recruitment').addClass('display')
         $('.home').addClass('display')
