@@ -49,6 +49,11 @@ $('.nav-contact').on('click',function(){
     }
 })
 
+$('.readMore').on('click',function(){
+    $('.about-us').removeClass("display")
+    $('.home').addClass('display')
+
+})
 $('.mob-icon').on('click',function(){
     $('.header-nav').removeClass("display")
     $('.close-nav').removeClass("display")
