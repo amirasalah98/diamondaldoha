@@ -5,6 +5,7 @@ $('.nav-home').on('click',function(){
         $('.recruitment').addClass('display')
         $('.contact-us').addClass('display')
         $('.our-services').addClass('display')
+        $('.header-nav').addClass("display")
     }
 })
 $('.nav-about').on('click',function(){
@@ -14,6 +15,7 @@ $('.nav-about').on('click',function(){
         $('.recruitment').addClass('display')
         $('.contact-us').addClass('display')
         $('.our-services').addClass('display')
+        $('.header-nav').addClass("display")
     }
 })
 $('.nav-recruit').on('click',function(){
@@ -23,6 +25,7 @@ $('.nav-recruit').on('click',function(){
         $('.home').addClass('display')
         $('.contact-us').addClass('display')
         $('.our-services').addClass('display')
+        $('.header-nav').addClass("display")
     }
 })
 $('.nav-services').on('click',function(){
@@ -32,6 +35,7 @@ $('.nav-services').on('click',function(){
         $('.recruitment').addClass('display')
         $('.contact-us').addClass('display')
         $('.home').addClass('display')
+        $('.header-nav').addClass("display")
     }
 })
 $('.nav-contact').on('click',function(){
@@ -41,5 +45,23 @@ $('.nav-contact').on('click',function(){
         $('.recruitment').addClass('display')
         $('.home').addClass('display')
         $('.our-services').addClass('display')
+        $('.header-nav').addClass("display")
     }
 })
+
+$('.mob-icon').on('click',function(){
+    $('.header-nav').removeClass("display")
+    $('.close-nav').removeClass("display")
+    
+})
+
+$('.colse-nav').on('click',function(){
+    $('.header-nav').addClass("display")
+    
+})
+
+// var headerNav= document.querySelector('.header-nav')
+//   function closeNav(event) {
+//     if (event.target === formSeheaderNavc) {
+//         $('.header-nav').addClass("display")    }
+// }
