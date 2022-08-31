@@ -473,6 +473,7 @@ padding: 50px;
         font-weight:bold;
         background-image:none;     
         width: 70%;
+        text-align:right;
         margin-right:0px ;
         margin-bottom: 15px;
         color: #fff;
@@ -482,7 +483,7 @@ padding: 50px;
         /* margin: auto; */
         /* margin-top: 20px; */
         padding-bottom: 5px;
-        height:30px;
+        height:25px;
         padding-left: 20px;
         
         
