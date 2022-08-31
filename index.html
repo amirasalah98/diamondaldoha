@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <script src="https://kit.fontawesome.com/7396ee3ed8.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -70,15 +71,25 @@
             </aside> -->
             <aside>
                 <h2 style="padding-bottom: 5px;">ارسال السيرة الذاتية</h2>
-                <label for="">اسم المستخدم</label></br>
-                <input type="text"></br>
-                <label for="">البريد الإلكتروني</label></br>
-                <input type="email"></br>
-                <label for="">موبايل</label></br>
-                <input type="phone"></br>
-                <label for="">العنوان</label></br>
-                <input type="text"></br>
-                <label for="nationality">الجنسية</label></br>
+                
+                <div class="form-flex">
+                <label for="">اسم المستخدم</label>
+                <input type="text">
+                </div>
+                <div class="form-flex">
+                <label for="">البريد الإلكتروني</label>
+                <input type="email">
+                </div>
+                <div class="form-flex">
+                <label for="">موبايل</label>
+                <input type="phone">
+                </div>
+                <div class="form-flex">
+                <label for="">العنوان</label>
+                <input type="text">
+                </div>
+                <div class="form-flex">
+                <label for="nationality">الجنسية</label>
                 <select id="nationality" name="nationality">
                     <option value="1">البانيا</option>
                     <option value="2">الجزائر</option>
@@ -120,11 +131,16 @@
                     <option value="4"> فيتنام</option>
                     <option value="4"> اليمن</option>
                     <option value="4"> اخري</option>
-                  </select></br>
-                  <label for="job">الوظيفة</label></br>
-                  <input type="text"></br>
-                <label for="file">CV</label></br>
-                <input type="file" id="file"></br>
+                  </select>
+                  </div>
+                  <div class="form-flex">
+                  <label for="job">الوظيفة</label>
+                  <input type="text">
+                  </div>
+                  <div class="form-flex">
+                <label for="file">CV</label>
+                <input type="file" id="file">
+                </div>
                 <!-- <input type="checkbox" id="terms">
                 <label for="terms">نعم أوافق على الشروط</label><br> -->
                 <input type="image" value="send" class="login" src="https://www.alemadia.com/images/client_but.png">
@@ -141,7 +157,7 @@
         <div class="main-aside2">
             <aside class="home ">
             <img src="images/slider1.jpeg" alt="">
-            <h1>اهلا وسهلا في شركة  دايموند الدوحة لجلب الايدي العاملة</h1>
+            <h1 style="margin:5px">اهلا وسهلا في شركة  دايموند الدوحة لجلب الايدي العاملة</h1>
             <p>
                 شركة دايموند الدوحة، شركة رائدة في جلب وتوظيف الايدي العاملة، تأسست في الدوحة- دولة قطر، تعمل على استقدام الايدي العاملة من, خادمات - سائقات -مربيات - طباخات - كوفيرات - خياطات - ممرضات - عمالة عربية
                 وذلك بأعلى مستوى من الحرفية والموضوعية حيث نقوم بالسفر بأنفسنا للبلدان المراد منها الإيادي العاملة, اندونيسيا - الفلبين - سيرلانكا - أثيوبيا - بنغلاديش - كينيا - نيبال - .... الخ</p>
@@ -169,13 +185,17 @@
             </ul>
 
             </div>
+            <img src="images/slider.jpeg" alt="">
+            <div class="about-us-flex">
+                
             <div>
                 <h2>مهمتنا</h2>
-                <p>تكمن مهمة شركة دايموند الدوحة، في تلبية الاحتياجات المتنوعة لعملائنا وتوفير أفضل الخدمات، بالإضافة الى انه، نهدف إلى هو تقديم أعلى جودة ومصداقية بتكاليف معقولة في جميع خدماتنا مع الحصول على رضا العملاء والاحتفاظ به مرتفعا من خلال تقديم خدمات عالية الجودة. توفير فرص معززة لموظفينا ونسعى جاهدين لتطوير مهاراتهم وخبراتهم المهنية</p>
+                <p>تكمن مهمة شركة دايموند الدوحة، في تلبية الاحتياجات المتنوعة لعملائنا وتوفير أفضل الخدمات، بالإضافة الى انه، نهدف إلى هو تقديم أعلى جودة ومصداقية بتكاليف معقولة في جميع خدماتنا مع الحصول على رضا العملاء والاحتفاظ به مرتفعا من خلال تقديم خدمات عالية الجودة. توفير فرص معززة لموظفينا ونسعى جاهدين لتطوير مهاراتهم وخبراتهم المهنية.</p>
             </div>
             <div>
                 <h2>رؤيتنا</h2>
-                <p>طلع شركة دايموند الدوحة إلى اتخاذ شكل الوكالة الرائدة لتوظيف القوى البشرية في جميع أنحاء العالم، وتهدف إلى تقديم الموظفين ذوي الكفاءة العالية، بالإضافة الى انه، نحن عازمون على تقديم أعلى مستوى من الخدمة تفوق توقعات عملائنا وبأن نصبح الشركة الأكثر تقديرا في قطر في مجال جلب الايدي العاملة، وتقديم خدمات الأعمال المكتبية للعملاء الكرام</p>
+                <p>طلع شركة دايموند الدوحة إلى اتخاذ شكل الوكالة الرائدة لتوظيف القوى البشرية في جميع أنحاء العالم، وتهدف إلى تقديم الموظفين ذوي الكفاءة العالية، بالإضافة الى انه، نحن عازمون على تقديم أعلى مستوى من الخدمة تفوق توقعات عملائنا وبأن نصبح الشركة الأكثر تقديرا في قطر في مجال جلب الايدي العاملة، وتقديم خدمات الأعمال المكتبية للعملاء الكرام.</p>
+            </div>
             </div>
             </aside>
             <aside class="recruitment display">
@@ -231,7 +251,8 @@
                     <p>info@dams.qa</p>
                 </aside>
                 <aside class="our-services display">
-                    <div class="services-img">
+                    <div class="our-services-flex">
+                    <!-- <div class="services-img">
                         <img src="images/WhatsApp Image 2022-07-27 at 3.45.26 PM (1).jpeg" alt="">
                         <img src="images/WhatsApp Image 2022-07-27 at 3.45.26 PM (2).jpeg" alt="">
                         <img src="images/WhatsApp Image 2022-07-27 at 3.45.26 PM (3).jpeg" alt="">
@@ -250,56 +271,89 @@
                         <img src="images/WhatsApp Image 2022-07-30 at 2.52.45 PM (1).jpeg" alt="">
                         <img src="images/WhatsApp Image 2022-07-30 at 2.52.45 PM.jpeg" alt="">
                         <img src="images/WhatsApp Image 2022-07-30 at 2.52.46 PM.jpeg" alt="">
-                    </div>
-                    <div>
+                    </div> -->
+                    
+                    <div class="our-services-items">
                     <h3>تكييف الهواء (نافذه، منفصل، وحدة مركزية )</h3>
-                    <p>HVACفنيو ,HVACمشرفو, HVACفورمان, HVACمهندس</p>
+                    <p >HVACفنيو ,HVACمشرفو, HVACفورمان, HVACمهندس</p>
+                    <img style="border: 1px solid #fff;border-radius: 15px;" src="images/WhatsApp Image 2022-07-30 at 2.52.45 PM (1).jpeg" alt="">
                 </div>
-                <div>
+                <div class="our-services-items">
                     <h3>الهندسة</h3>
                     <p>مهندس كهرباء,  مهندس ميكانيكي,  مهندس الكتروني,  مهندس مدني,  الخ</p>
+                    <img src="images/WhatsApp Image 2022-07-27 at 3.45.27 PM (2).jpeg" alt="">
+
                 </div>
-                <div>
-                    <h3>الملابس الجاهزة والنسيج</h3>
-                    <p>صناعة العُلب,  قطع ماستر, مدراء الإنتاج,  مشرفين,  خياطين ,  مساعدون,  إلخ</p>
-                </div>
-                <div>
-                    <h3>مجموعة إدارة شؤون الموظفين في المكتب</h3>
-                    <p>المدير,  مساعدة مدير,  مدير التسويق والمبيعات والإدارة,  الأمناء، الصرافين,  كتبة، مسجلين تاريخ الدخول,  مكتب الأولا</p>
-                </div>
-                <div>
-                    <h3>سوبر ماركت</h3>
-                    <p>بائع,  أمين الصندوق,  عمال نظافة,  العاب أولاد,  رفوف منظمة,  صرافين</p>
-                </div>
-                <div>
+                <div class="our-services-items">
                     <h3>أعمال الخدمة المنزلية</h3>
                     <p>خادمات,  مربية أطفال,  عامل حديقة,  طباخ</p>
+                    <img src="images/WhatsApp Image 2022-07-28 at 9.47.17 AM.jpeg" alt="">
+
                 </div>
-                <div>
+              
+                <div class="our-services-items">
+                    <h3>الملابس الجاهزة والنسيج</h3>
+                    <p>صناعة العُلب,  قطع ماستر, مدراء الإنتاج,  مشرفين,  خياطين ,  مساعدون,  إلخ</p>
+                    <img src="images/WhatsApp Image 2022-07-27 at 3.45.26 PM (3).jpeg" alt="">
+
+                </div>
+                <div class="our-services-items">
+                    <h3>مجموعة إدارة شؤون الموظفين في المكتب</h3>
+                    <p>المدير,  مساعدة مدير,  مدير التسويق والمبيعات والإدارة,  الأمناء، الصرافين,  كتبة، مسجلين تاريخ الدخول,  مكتب الأولا</p>
+                    <img src="images/WhatsApp Image 2022-07-27 at 3.45.27 PM.jpeg" alt="">
+
+                </div>
+                <div class="our-services-items">
+                    <h3>تكنولوجيا المعلومات</h3>
+                    <p>مهندس كمبيوتر,  مدير النظام,  مهندس برمجيات,  مبرمج,  محللون النظام, مسؤولي الشبكة, مشغلي إدخال البيانات, مشغلي الكمبيوتر,  فنيو الكومبيوتر, مشغلي قاعدة البيانات,  مدخلين البيانات</p>  
+                    <img src="images/WhatsApp Image 2022-07-30 at 2.52.45 PM.jpeg" alt="">
+                </div>
+                <div class="our-services-items">
+                    <h3>سوبر ماركت</h3>
+                    <p>بائع,  أمين الصندوق,  عمال نظافة,  العاب أولاد,  رفوف منظمة,  صرافين</p>
+                    <img src="images/WhatsApp Image 2022-07-27 at 3.45.27 PM (6).jpeg" alt="">
+
+                </div>
+             
+                <!-- <div>
                     <h3>المهنيين</h3>
                     <p>محاسب القانوني,  طبيب,  مدقق حسابات,  محاسب,  مدير  مشرف,  مراقب الوثائق,  موظف إداري,  مساعد اداري</p>
-                </div>
-                <div>
+                
+                </div> -->
+                <div class="our-services-items">
                     <h3>الموظفون الصناعيون</h3>
                     <p>مشغلي الرافعات,  فني تكييف الهواء,  كهربائي,  مشغل المحطة,  الميكانيكيون الأنابيب,  الحفارون,  مشغل المعدات الثقيلة,  ميكانيكي معدات ثقيلة</p>
+                    <img src="images/WhatsApp Image 2022-07-27 at 3.45.26 PM (1).jpeg" alt="">
+
                 </div>
-                <div>
-                    <h3>تكنولوجيا المعلومات</h3>
-                    <p>مهندس كمبيوتر,  مدير النظام,  مهندس برمجيات,  مبرمج,  محللون النظام, مسؤولي الشبكة, مشغلي إدخال البيانات, مشغلي الكمبيوتر,  فنيو الكومبيوتر, مشغلي قاعدة البيانات,  مدخلين البيانات</p>
-                </div>
-                <div>
-                    <h3>خدمات الفنادق</h3>
-                    <p>اخصائي العلاج بالوخز,  ,  خباز,  طباخ,  منظف,  حارس,  علاج طبيعي\ مساج,  نادل\ ة,  حلاق,  ممرض\ة,  مترجم\ة,  مهندس صيانة,  مدير المطعم</p>
-                </div>
-                <div>
+                <div class="our-services-items">
                     <h3>موظفي البناء</h3>
                     <p>
                         مهندس معماري، مهندس السيارات،  مهندس تصميم,  مهندس كهرباء,  مهندس الكتروني, مهندس مدني،  مهندس تقدير,  مهندس تصنيع,  مهندس صيانة,  مهندس مواد,  مهندس ميكانيكي,  مهندس الصرف الصحي,  مهندس إنتاج,  مهندس اختبار,  مهندس مشروع,  مهندس موقع,  مساح,  مدير المشروع,  مقدر المشروع,  الرسامون,  النجار,  لحام,  سباك، الخ
                     </p>
+                    <img src="images/WhatsApp Image 2022-07-27 at 3.45.27 PM (5).jpeg" alt="">
                 </div>
-                <div>
+                
+                <div class="our-services-items">
                     <h3>متخصصو تكنولوجيا المعلومات</h3>
                     <p>وصول مبرمج,  مبرمج ،C \ C++ مبرمج كوبول,  مبرمج باسكال,  مبرمج قواعد البيانات,  مبرمج  سايبسس,  مهندس معتمد من مايكروسوفت,  ترقيات الأجهزة / البرامج,  مهندس شبكات نوفيل, مشغل السيارات, مبرمج أوراكل,  مهندس برمجيات,  مهندس تصميم,  مهندس الأجهزة,  مهندس ويندوز , مصممين مواقع,  محلل النظام شبكة النوفيل، مشرفون،مبرمج SQL ،دعم CICS</p>
+                <img src="images/WhatsApp Image 2022-07-27 at 3.45.27 PM (1).jpeg" alt="">
+                </div>
+                <div class="our-services-items">
+                    <h3>خدمات الفنادق</h3>
+                    <p>اخصائي العلاج بالوخز,  ,  خباز,  طباخ,  منظف,  حارس,  علاج طبيعي\ مساج,  نادل\ ة,  حلاق,  ممرض\ة,  مترجم\ة,  مهندس صيانة,  مدير المطعم</p>
+                    <img src="images/WhatsApp Image 2022-07-30 at 2.52.46 PM.jpeg" alt="">
+                </div>
+              
+                
+
+                <!-- <div class="our-services-items">
+                    <h3>تكنولوجيا المعلومات</h3>
+                    <p>مهندس كمبيوتر,  مدير النظام,  مهندس برمجيات,  مبرمج,  محللون النظام, مسؤولي الشبكة, مشغلي إدخال البيانات, مشغلي الكمبيوتر,  فنيو الكومبيوتر, مشغلي قاعدة البيانات,  مدخلين البيانات</p>  
+                    <img src="images/WhatsApp Image 2022-07-30 at 2.52.45 PM.jpeg" alt="">
+                </div> -->
+              
+               
                 </div>
             </aside>
         </div>
