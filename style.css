@@ -473,6 +473,8 @@ padding: 50px;
         font-weight:bold;
         background-image:none;     
         width: 100%;
+        height:28px;
+        vertical-align: middle;
         text-align:right;
         margin-right:0px;
         margin-bottom: 15px;
