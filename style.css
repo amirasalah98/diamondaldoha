@@ -184,7 +184,8 @@ padding: 50px;
     /* align-content: flex-end; */
 }
 .our-services div{
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border-bottom: 1px solid rgb(218, 218, 218);
 }
 .contact-us input{
