@@ -472,7 +472,7 @@ padding: 50px;
     .main-aside h2{
         font-weight:bold;
         background-image:none;     
-        width: 60%;
+        width: 90%;
         text-align:right;
         margin-right:0px;
         margin-bottom: 15px;
@@ -483,9 +483,9 @@ padding: 50px;
         /* margin: auto; */
         /* margin-top: 20px; */
         padding-bottom: 5px;
-        height:21px;
+        height:28px;
         padding-left: 20px;
-        padding-right: 0px;
+        padding-right: -5px;
         
         
     }
