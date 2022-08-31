@@ -217,6 +217,9 @@ padding: 50px;
     margin-bottom: 15px;
 
 }
+.main-aside h3{
+    color: #8C1014;
+}
 .form-flex{
     width: 100%;
     display: flex;
@@ -225,11 +228,14 @@ padding: 50px;
 .form-flex label{
     /* justify-self: flex-start; */
     margin-right:5px;
+    align-self: center;
+
 }
 .form-flex input ,.form-flex select{
     
     /* justify-self: flex-end; */
     margin-left:5px;
+    
 }
 #file{
     width: 80%;
